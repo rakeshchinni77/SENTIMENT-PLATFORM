@@ -82,55 +82,60 @@ The video demonstrates:
 ```
 SENTIMENT-PLATFORM
 ├── backend
-│ ├── services
-│ │ └── alerting.py
-│ ├── tests
-│ │ ├── test_api.py
-│ │ ├── test_integration.py
-│ │ └── test_sentiment.py
-│ ├── database.py
-│ ├── models.py
-│ ├── main.py
-│ ├── Dockerfile
-│ └── requirements.txt
+│   ├── services
+│   │   └── alerting.py
+│   ├── tests
+│   │   ├── conftest.py         
+│   │   ├── test_api.py
+│   │   ├── test_integration.py
+│   │   └── test_sentiment.py
+│   ├── database.py
+│   ├── models.py
+│   ├── main.py
+│   ├── Dockerfile
+│   └── requirements.txt
 │
 ├── frontend
-│ ├── src
-│ │ ├── components
-│ │ │ ├── Dashboard.jsx
-│ │ │ ├── StatCard.jsx
-│ │ │ ├── SentimentChart.jsx
-│ │ │ ├── DistributionChart.jsx
-│ │ │ └── LiveFeed.jsx
-│ │ ├── services
-│ │ │ └── api.js
-│ │ ├── App.jsx
-│ │ ├── main.jsx
-│ │ └── index.css
-│ ├── Dockerfile
-│ ├── index.html
-│ ├── package.json
-│ ├── tailwind.config.js
-│ └── vite.config.js
+│   ├── src
+│   │   ├── components
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── StatCard.jsx
+│   │   │   ├── SentimentChart.jsx
+│   │   │   ├── DistributionChart.jsx
+│   │   │   └── LiveFeed.jsx
+│   │   ├── services
+│   │   │   └── api.js
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── index.css
+│   ├── Dockerfile
+│   ├── index.html
+│   ├── package.json
+│   ├── tailwind.config.js
+│   └── vite.config.js
 │
 ├── ingester
-│ ├── ingester.py
-│ ├── Dockerfile
-│ └── requirements.txt
+│   ├── ingester.py
+│   ├── Dockerfile
+│   └── requirements.txt
 │
 ├── worker
-│ ├── worker.py
-│ ├── sentiment_analyzer.py
-│ ├── database.py
-│ ├── models.py
-│ ├── Dockerfile
-│ └── requirements.txt
+│   ├── worker.py
+│   ├── sentiment_analyzer.py
+│   ├── database.py
+│   ├── models.py
+│   ├── Dockerfile
+│   └── requirements.txt
+│
+├── assets                   
+│   └── dashboard.png
 │
 ├── docker-compose.yml
 ├── ARCHITECTURE.md
 ├── README.md
 ├── .env.example
 └── .gitignore
+
 ```
 
 ---
