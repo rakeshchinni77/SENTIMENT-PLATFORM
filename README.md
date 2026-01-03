@@ -19,6 +19,12 @@ The video demonstrates:
 
 ---
 
+### Live Dashboard Preview
+
+![Live Sentiment Dashboard](assets/dashboard.png)
+
+---
+
 ## Key Features
 
 - Real-time ingestion of social media–like posts
