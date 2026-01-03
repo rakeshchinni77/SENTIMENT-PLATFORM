@@ -6,6 +6,19 @@ This project showcases **event-driven microservices**, **AI-powered NLP**, **Web
 
 ---
 
+## Live Demo
+
+▶ **Recorded Live Demo (Dockerized Application)**  
+https://drive.google.com/file/d/1E7Wk7Se4mxPnPo-F-FVaSUEVEHrRrZWm/view?usp=sharing
+
+The video demonstrates:
+- Starting all services using Docker Compose
+- Real-time sentiment ingestion and processing
+- Live WebSocket updates on the dashboard
+- End-to-end data flow across microservices
+
+---
+
 ## Key Features
 
 - Real-time ingestion of social media–like posts
