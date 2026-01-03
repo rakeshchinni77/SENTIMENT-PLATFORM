@@ -23,6 +23,8 @@ The video demonstrates:
 
 ![Live Sentiment Dashboard](assets/dashboard.png)
 
+*Real-time dashboard showing live sentiment trends, distribution, and streaming posts via WebSockets.*
+
 ---
 
 ## Key Features
